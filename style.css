@@ -17,6 +17,7 @@ div{
     border:2px solid black;
     padding-bottom: 30px;
     background-color:#666699;
+    width:300px;
 }
 #pic{
     height: 220px;
