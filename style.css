@@ -1,6 +1,7 @@
 body{
-    background-color:#4c4c4c;
+    background-image: url("resources/background.jpg");
     font-style:Verdana, Serif;
+    background-repeat: repeat-y;
 }
 div{
     background-color:#000099;
