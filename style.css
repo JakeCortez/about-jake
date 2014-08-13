@@ -1,22 +1,35 @@
+*{
+    font-family:Verdana, serif;
+}
+p{
+    font-size:20px;
+    text-align:center;
+}
+a{
+        text-decoration:none;
+        color:black;
+}
 body{
     background-image: url("resources/background.jpg");
-    font-style:Verdana, Serif;
+    font-family:Verdana, Serif;
     background-repeat: repeat-y;
 }
 div{
     background-color:#000099;
     margin-left:auto;
     margin-right:auto;
-    
+}
+#background{
+    width: 800px;
+    background-image: url("resources/construction-paper.jpg");   
 }
 #header{
     text-align:center;
-    height:100px;
     font-family: Verdana;
     font-size:30px;
     border-radius:20px;
     border:2px solid black;
-    padding-bottom: 30px;
+    padding: 2px;
     background-color:#666699;
     width:300px;
 }
@@ -35,34 +48,54 @@ div{
 #about{
     background-color:#666699;
     width:280px;
-    height:260px;
+    height:300px;
     border-radius:15px;
     border:2px solid black;
-    position:relative;
-    padding-top:-20px;
     padding-bottom:20px;
 }
-h4:first-child{
-    text-align:center;
-    font-size:20px;
-    font-family:Times;
-}
 .filler{
-    float:center;
-    font-size:25px;
     text-align:center;
     width:660px;
+    padding-top:5px;
+    padding-bottom:3px;
+    border: 2px solid black;
 }
 #filler{
-    max-width:1050px;
     border:2px solid black;
 }
 #contact{
-    height:180px;
-    width:156px;
+    height:100px;
+    width:140px;
     background-color:#666699;
     border-radius:15px;
     border:2px solid black;
-    clear:both;
-    
+    padding-left:10px;
+    padding-right:10px;
+    position:fixed;
+    margin-left:1300px;
+    font-size:12px;
+}
+.contact{
+    display: inline-block;
+    width:60px;
+    background-color:#000099;
+    font-weight: bold;
+    font-size:10px;
+    text-align:center;
+    border: 2px white solid;
+    margin-left:auto;
+    margin-right:auto;
+    padding: 1px;
+}
+#findMe{
+    font-size:12px;
+    font-weight:bold;
+    text-align: center;
+    background-color:#000099;
+    display: block;
+    padding:1px;
+    border: 2px white solid;
+    width:100px;
+    margin-left:auto;
+    margin-right:auto;
 }
