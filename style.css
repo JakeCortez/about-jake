@@ -13,6 +13,7 @@ body{
     background-image: url("resources/background.jpg");
     font-family:Verdana, Serif;
     background-repeat: repeat-y;
+    background-attachment: fixed;
 }
 div{
     background-color:#000099;
@@ -21,7 +22,9 @@ div{
 }
 #background{
     width: 800px;
-    background-image: url("resources/construction-paper.jpg");   
+    background-image: url("resources/construction-paper.jpg");
+    padding-top:10px;
+    padding-bottom:10px;
 }
 #header{
     text-align:center;
